@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     display: flex;
@@ -17,6 +23,9 @@ body{
 #display{
     width: 100%;
     padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
     font-size: clamp(2rem, 5vw, 4rem);
     text-align: right;
     border: none;
